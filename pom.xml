@@ -82,8 +82,8 @@ under the License.
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
-        <maven.version>2.2.1</maven.version>
-        <maven-plugin-plugin.version>3.4</maven-plugin-plugin.version>
+        <maven.version>3.5.0</maven.version>
+        <maven-plugin-plugin.version>3.6.2</maven-plugin-plugin.version>
 
         <scalac-scoverage-plugin.version>1.1.0</scalac-scoverage-plugin.version>
     </properties>
@@ -140,7 +140,7 @@ under the License.
         <dependency>
             <groupId>org.apache.maven.doxia</groupId>
             <artifactId>doxia-site-renderer</artifactId>
-            <version>1.0</version>
+            <version>1.10</version>
         </dependency>
     </dependencies>
 
@@ -429,7 +429,7 @@ under the License.
                                         </goals>
                                     </pluginExecutionFilter>
                                     <action>
-                                        <ignore />
+                                        <ignore/>
                                     </action>
                                 </pluginExecution>
 
@@ -444,7 +444,7 @@ under the License.
                                         </goals>
                                     </pluginExecutionFilter>
                                     <action>
-                                        <ignore />
+                                        <ignore/>
                                     </action>
                                 </pluginExecution>
 
@@ -458,7 +458,7 @@ under the License.
                                         </goals>
                                     </pluginExecutionFilter>
                                     <action>
-                                        <ignore />
+                                        <ignore/>
                                     </action>
                                 </pluginExecution>
                             </pluginExecutions>
